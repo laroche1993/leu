@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "typeRoots": ["node_modules/@types"] 
+  },
+  "compileOnSave": true,
+  "include": [
+    "src",
+    "index.js",
+    "lib/index.ts",
+    "src/lib/index.ts",
+    "lib/index.js"
+  ],
+
+  "exclude": ["node_modules"]
+}
